@@ -15,7 +15,7 @@
 - [Data Analysis for the Life Sciences](http://www.rwdc2.com/files/rafa.pdf)
 - [STAT 545](http://stat545.com/topics.html)
 - [Data Science Live Book](https://livebook.datascienceheroes.com/)
-- [Data Mining with R-Learning with Case Studies](https://github.com/hudoop/Rstudy/blob/master/Data%20Mining%20with%20R-Learning%20with%20Case%20Studies(Luis%20Torgo%202011).pdf](https://github.com/hudoop/Rstudy/blob/master/Data Mining with R-Learning with Case Studies(Luis Torgo 2011).pdf)
+- [Data Mining with R-Learning with Case Studies](Data Mining with R-Learning with Case Studies(Luis Torgo 2011).pdf)
 
 ### Visualization
 
