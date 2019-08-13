@@ -10,7 +10,7 @@ R section
 
 ------
 
-[Books](1_R/1_BOOKS/README.md)
+[Books](1_BOOKS/README.md)
 
 
 
