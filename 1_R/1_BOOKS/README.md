@@ -43,9 +43,9 @@
 
 ### Modelling
 
-[Forecasting: Principles and Practice](https://otexts.com/fpp2/)
++ [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
 
-[The caret Package](https://topepo.github.io/caret/)
++ [The caret Package](https://topepo.github.io/caret/)
 
 ### GIT
 
@@ -62,8 +62,8 @@
 
 ###  Others
 
-- SQL: [Data.World Basic to Advanced tutorials](https://docs.data.world/documentation/sql/concepts/basic/intro.html)
-- Feature Engineering: [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
-- [MOdern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/)
+- [Data.World Basic to Advanced tutorials](https://docs.data.world/documentation/sql/concepts/basic/intro.html)
+- [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
+- [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/)
 
 
