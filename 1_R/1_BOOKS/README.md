@@ -33,6 +33,10 @@
 
 -  [21 Recipes for Mining Twitter Data with rtweet](https://rud.is/books/21-recipes/)
 
+### Style Guide
+
++ [Tidyverse Style Guide](https://style.tidyverse.org/)
+
 ### Advanced R 
 
 - [R packages, by Hadley Wickham](http://r-pkgs.had.co.nz/)
