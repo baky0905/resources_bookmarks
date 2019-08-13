@@ -4,6 +4,7 @@
 
 - [R for data science by Hadley Wickham and Garrett Grolemund](http://r4ds.had.co.nz/)
 - [Modern Dive, by Chester Ismay and Albert Y. Kim](http://moderndive.com/)
+- [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/)
 - [Data Analysis and Visualization Using R, by David Robinson](http://varianceexplained.org/RData/)
 - [Learning statistics with R, by Danielle Navarro](http://compcogscisydney.org/learning-statistics-with-r/)
 - [purrr cookbook](http://colinfay.me/purrr-cookbook/)
@@ -13,6 +14,8 @@
 - [Software Carpentry](https://software-carpentry.org/)
 - [Data Analysis for the Life Sciences](http://www.rwdc2.com/files/rafa.pdf)
 - [STAT 545](http://stat545.com/topics.html)
+- [Data Science Live Book](https://livebook.datascienceheroes.com/)
+- [Data Mining with R-Learning with Case Studies]([https://github.com/hudoop/Rstudy/blob/master/Data%20Mining%20with%20R-Learning%20with%20Case%20Studies(Luis%20Torgo%202011).pdf](https://github.com/hudoop/Rstudy/blob/master/Data Mining with R-Learning with Case Studies(Luis Torgo 2011).pdf))
 
 ### Visualization
 
@@ -69,5 +72,7 @@
 - [Data.World Basic to Advanced tutorials](https://docs.data.world/documentation/sql/concepts/basic/intro.html)
 - [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
 - [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/)
+- [Thesis Down](https://thesisdown.netlify.com/)
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
 
 
