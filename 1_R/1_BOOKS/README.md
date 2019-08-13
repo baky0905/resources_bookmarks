@@ -23,7 +23,7 @@
 
 ### Spatial
 
-[Geocomputation with R](https://geocompr.robinlovelace.net/)
++ [Geocomputation with R](https://geocompr.robinlovelace.net/)
 
 ### Text analytics
 
