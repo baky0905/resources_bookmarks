@@ -1,6 +1,6 @@
 ## Key learnings
 
-![1565817670112](.\imgs\functional_programming.png)
+![1565817670112](./imgs/functional_programming.png)
 
 
 
@@ -41,7 +41,7 @@ write.csv(iris, "iris.csv")
 
 ### How to use `purrr` to easily create functions?
 
-![1565816761082](.\imgs\purrr_map.png)
+![1565816761082](./imgs/purrr_map.png)
 
 **Function creation** via one sided formulas (~) - what do I want to do with each element of the list you are iterating on.
 
