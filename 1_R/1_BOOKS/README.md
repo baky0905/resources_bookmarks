@@ -67,6 +67,13 @@
 - [Minimal bookdown example](https://benmarwick.github.io/bookdown-ort/index.html)
 - [Host bookdown on gitlab](https://rlesur.gitlab.io/bookdown-gitlab-pages/index.html#host-a-project-on-gitlab)
 
+## Shiny
+
++ [Mastering Shiny](https://mastering-shiny.org/)
++ [Building Big Shiny Apps - A Workflow](https://thinkr-open.github.io/building-shiny-apps-workflow/)
++ [How to Build a Shiny Appllication from Skratch](https://bookdown.org/hadrien/how_to_build_a_shiny_app_from_scratch/)
++ [Building Web Applications with Shiny and SQL Server](https://bookdown.org/msharkey3434/ShinyDB_Book/)
+
 ###  Others
 
 - [Data.World Basic to Advanced tutorials](https://docs.data.world/documentation/sql/concepts/basic/intro.html)
