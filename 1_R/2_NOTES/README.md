@@ -4,3 +4,5 @@
 
 [Introduction to package building](2_INTRO_TO_PACKAGE_BUILDING.MD)
 
+[Interactive maps with leaflet in R](3_INTERACTIVE_MAPS_WITH_LEAFLET_IN_R.MD)
+
