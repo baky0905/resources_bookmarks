@@ -309,3 +309,200 @@ build("simutils", binary = TRUE)
 
 
 
+**What is Continuous Integration?**
+
+- Automatically runs checks when code changed
+
+- Used with version control
+
+- Runs every time you make an update
+
+  
+
+Adding Continuous Integration for a Package
+
+```r
+use_travis("simutils")
+```
+
+
+
+**Building an R package**
+
+Once you have created the correct structure, included all of your functions, created the package documentation and ensured that the checks pass you can then build your package so that it is in a shareable format.
+
+You can build your package using the [`build()`](https://www.rdocumentation.org/packages/devtools/topics/build) function from `devtools`. You can use this function to build either a source version of the package, or a Windows/Mac specific binary version. The source version of the package will have a file ending of ".tar.gz" and the binary will take the ending ".zip" (Windows) or ".tgz" (Mac). You can only build binaries for the current platform that you're using. The `build()` function builds the source version of the package by default
+
+
+
+You can run `use_github()` and `use_travis()` to set up your package for use with GitHub and Travis CI. GitHub is a popular website used for storing code and version control, and Travis CI is used for continuous integration,
+
+
+
+**What are unit tests and why write them?**
+
+Why Write Unit Tests?
+
+A function that works correctly now may not behave as expected in the future if:
+
+- Supporting or connected code could be added or modified
+- A later version of R and/or later versions of packages are used
+- The code is run on new data
+- The code is run on a different operating system
+
+
+  **Setting up the test structure**
+
+- Call `use_testthat` to set up the test framework
+- This creates a `test` directory in the package root directory
+- Within the `test` directory, there is a script `testthat.R` which contains code to run the tests
+- Within the `test` directory is a directory `testthat` where you save all of your test scripts
+
+
+
+**Writing an individual test**
+
+Some of the most common expect statements:
+
+- `expect_identical` - Checks for exact equality
+- `expect_equal` - Checks for equality with numerical tolerance
+- `expect_equivalent` - More relaxed version of equals
+- `expect_error` - Checks that an expression throws an error
+- `expect_warning` - Checks that an expression gives a warning
+- `expect_output` - Checks that output matches a specified value
+
+
+
+**expect_identical**
+
+- Strictest numerical comparison
+- Compares **values**, **attributes**, and **type**
+
+Passes
+
+```R
+library(testthat)
+
+my_vector <- c("First" = 1, "Second" = 2)
+
+expect_identical(my_vector, c("First" = 1, "Second" = 2))
+```
+
+
+
+**expect_equal**
+
+- Compares **values** and **attributes**
+- Doesn't compare **type**
+
+Passes
+
+```r
+expect_equal(my_vector, c("First" = 1L, "Second" = 2L))
+```
+
+
+
+**expect_equivalent**
+
+- Least strict numerical comparison
+- Compares **values** only
+- Doesn't compare **attributes** or **type**
+
+Passes
+
+```r
+expect_equivalent(my_vector, c(1, 2))
+```
+
+
+
+**Setting up the test structure**
+
+You can set up a test framework in a package using the function `use_testthat()`.
+
+This will create a tests directory that contains:
+
+- A script `testthat.R`.
+- A directory `testthat`.
+
+You save your tests in the `tests/testthat/` directory in files with filenames beginning with `test-`. So, for example, the `simutils` package has tests named:
+
+- `test-na_counter.R`
+- `test-sample_from_data.R`
+
+There are no other strict rules governing the filenames, but you may find it easier to keep track of which functions you are testing if you name your tests after the functions like in the examples above. Alternatively, you can name your tests after areas of package functionality, for example, putting tests for multiple summary functions in `test-summaries.R`.
+
+
+
+**Testing for equality**
+
+You can use `expect_equal()`, `expect_equivalent()` and `expect_identical()` in order to test whether the output of a function is as expected.
+
+These three functions all have slightly different functionality:
+
+- `expect_identical()` checks that the **values**, **attributes**, and **type** of both objects are the same.
+- `expect_equal()` checks that the **values**, and **attributes** of both objects are the same. You can adjust how strict `expect_equal()` is by adjusting the `tolerance` parameter.
+- `expect_equivalent()` checks that the **values**, of both objects are the same.
+
+
+
+**Test for error or warnings**
+
+**Testing Warnings**
+
+Passes
+
+```r
+expect_warning(sqrt(-1))
+```
+
+
+
+**Testing Errors**
+
+Passes
+
+```r
+expect_error(sqrt("foo"))
+```
+
+Fails
+
+```r
+expect_error(sqrt(-1))
+```
+
+ 
+
+```
+Error: sqrt(-1) did not throw an error.
+In addition: Warning message:
+In sqrt(-1) : NaNs produced
+```
+
+
+
+**Testing Specific Warning and Error Messages**
+
+Passes
+
+```r
+expect_error(sqrt("foo"), "non-numeric argument to mathematical function")
+```
+
+Fails
+
+```r
+expect_error(sqrt("foo"), "NaNs produced")
+```
+
+ 
+
+```
+Error: error$message does not match "NaNs produced".
+Actual value: "non-numeric argument to mathematical function"
+```
+
+
+
