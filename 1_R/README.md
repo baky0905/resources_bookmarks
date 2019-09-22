@@ -1,5 +1,3 @@
-## Notes
-
 [Notes](2_NOTES/README.md)
 
 ------
