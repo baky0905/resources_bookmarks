@@ -1,36 +1,5 @@
-# Purpose
-
-Python section
+[Notes](2_NOTES/README.md)
 
 ------
 
-### Notes
-
-
-
-------
-
-### Books
-
-
-
-------
-
-### Bookmarks
-
-
-
-------
-
-
-
-### Ideas
-
-
-
-
-
-------
-
-
-
+[Books](1_BOOKS/README.md)
