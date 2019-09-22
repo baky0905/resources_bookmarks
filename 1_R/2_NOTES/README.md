@@ -6,4 +6,4 @@
 
 [Interactive maps with leaflet in R](3_INTERACTIVE_MAPS_WITH_LEAFLET_IN_R.MD)
 
-[Wrangling data in the Tidyverse](4_WRANGLING_DATA_IN_THE_TIDYVERSE.MD)
+[String manipulation in R with stringR](4_STRING_MANIPULATION_IN_R_WITH_STRINGR.MD)
