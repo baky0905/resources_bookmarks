@@ -1,9 +1,3 @@
-# Purpose
-
-R section
-
-------
-
 ## Notes
 
 [Notes](2_NOTES/README.md)
