@@ -97,5 +97,6 @@
 - [Thesis Down](https://thesisdown.netlify.com/)
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
 - [R Package Showcase](http://uribo.github.io/rpkg_showcase/index.html)
+- [Agile Data Science with R](https://edwinth.github.io/ADSwR/)
 
 
