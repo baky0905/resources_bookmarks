@@ -4,6 +4,8 @@
 
 ### Visualization
 
+* [Python Visualization - Jumping Rivers](https://bookdown.org/jamie/python_visualisation/)
+
 ### Spatial
 
 ### Text analytics
