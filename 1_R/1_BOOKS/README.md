@@ -32,6 +32,8 @@
 
 - [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
 
+-[practical-data-science-with-r-second-edition](https://www.manning.com/books/practical-data-science-with-r-second-edition)
+
   
 
 ### Visualization
