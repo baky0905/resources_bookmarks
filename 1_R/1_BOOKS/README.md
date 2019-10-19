@@ -30,6 +30,8 @@
 
 - [Data Mining with R-Learning with Case Studies](Data Mining with R-Learning with Case Studies(Luis Torgo 2011).pdf)
 
+- [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
+
   
 
 ### Visualization
