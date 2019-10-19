@@ -74,6 +74,8 @@
 
 + [The caret Package](https://topepo.github.io/caret/)
 
++ [Applied Time Series Analysis](https://nwfsc-timeseries.github.io/atsa-labs/index.html)
+
 ### GIT
 
 - [Git in practice, by Mike McQuaid](https://github.com/GitInPractice/GitInPractice#readme)
