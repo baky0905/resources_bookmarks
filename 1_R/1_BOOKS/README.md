@@ -64,6 +64,7 @@
 - [Advanced R course](https://privefl.github.io/advr38book/)
 - [Efficient R programming, by Colin Gillespie and Robin Lovelace](https://csgillespie.github.io/efficientR/)
 - [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+- [Offensive Programming Book](https://neonira.github.io/offensiveProgrammingBook/)
 
 ### Modelling
 
