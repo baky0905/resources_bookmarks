@@ -34,6 +34,8 @@
 
 - [practical-data-science-with-r-second-edition](https://www.manning.com/books/practical-data-science-with-r-second-edition)
 
+- [Modern Data Science with R 2nd](https://beanumber.github.io/mdsr2e/)
+
   
 
 ### Visualization
