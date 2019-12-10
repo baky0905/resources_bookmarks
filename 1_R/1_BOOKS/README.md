@@ -48,7 +48,8 @@
 
 ### Spatial
 
-+ [Geocomputation with R](https://geocompr.robinlovelace.net/)
+- [Geocomputation with R](https://geocompr.robinlovelace.net/)
+- [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
 
 ### Text analytics
 
