@@ -50,6 +50,7 @@
 
 - [Geocomputation with R](https://geocompr.robinlovelace.net/)
 - [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
+- [Spatial data manipulation](https://rspatial.org/raster/spatial/index.html)
 
 ### Text analytics
 
