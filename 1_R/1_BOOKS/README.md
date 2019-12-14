@@ -96,6 +96,7 @@
 - [Authoring Books and Technical Documents with R Markdown, by Yihui Xie](https://bookdown.org/yihui/bookdown/)
 - [Minimal bookdown example](https://benmarwick.github.io/bookdown-ort/index.html)
 - [Host bookdown on gitlab](https://rlesur.gitlab.io/bookdown-gitlab-pages/index.html#host-a-project-on-gitlab)
+- [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
 
 ## Shiny
 
