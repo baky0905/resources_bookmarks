@@ -45,6 +45,8 @@
 - [ggplot2 book](https://ggplot2-book.org/)
 - [Cookbook for R](http://www.cookbook-r.com/Graphs/)
 - [Data Proseccing and Visualisation](https://m-clark.github.io/data-processing-and-visualization/)
+- [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+- [Data Visualization with R](https://rkabacoff.github.io/datavis/index.html)
 
 ### Spatial
 
