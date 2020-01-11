@@ -54,6 +54,7 @@
 - [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
 - [Spatial data manipulation](https://rspatial.org/raster/spatial/index.html)
 - [Code for An Introduction to Spatial Analysis and Mapping in R 2nd edition](https://bookdown.org/lexcomber/brunsdoncomber2e/)
+- [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](http://www.paulamoraga.com/book-geospatial/)
 
 ### Text analytics
 
