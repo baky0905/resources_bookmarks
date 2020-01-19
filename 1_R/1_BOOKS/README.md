@@ -85,6 +85,8 @@
 
 + [Applied Time Series Analysis](https://nwfsc-timeseries.github.io/atsa-labs/index.html)
 
++ [A ModernDive into R and the tidyverse](https://moderndive.com/)
+
 ### GIT
 
 - [Git in practice, by Mike McQuaid](https://github.com/GitInPractice/GitInPractice#readme)
