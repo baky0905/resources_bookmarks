@@ -119,5 +119,6 @@
 - [Agile Data Science with R](https://edwinth.github.io/ADSwR/)
 - [Creating APIs in R with Plumber](https://www.rplumber.io/docs/index.html#web-apis)
 - [Mastering Spark with R](https://therinspark.com/)
+- [Elementary Statistical Modeling for Applied Biostatistics](https://www.middleprofessor.com/files/applied-biostatistics_bookdown/_book/)
 
 
