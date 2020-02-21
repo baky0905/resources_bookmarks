@@ -36,6 +36,8 @@
 
 - [Modern Data Science with R 2nd](https://beanumber.github.io/mdsr2e/)
 
+- [data-science-training](http://ohi-science.org/data-science-training/index.html)
+
   
 
 ### Visualization
